@@ -1,13 +1,18 @@
 import React, { useState } from 'react';
 import { close, thriftuslogo, menu } from '../assets';
 import { navLinks } from "../constants"
+import { motion } from 'framer-motion'
 
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className='w-full flex py-6 justify-between items-center navbar'>
+    <motion.nav
+      initial={{ y: -150 }}
+      animate={{ y: -10 }} 
+      transition={{ delay: 0.2, type: 'spring', stiffness: 120 }} 
+      className='w-full flex py-6 justify-between items-center navbar'>
       <img src={thriftuslogo} alt='thriftus' className='w-[140px] h-[64px]'/>
 
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
@@ -26,7 +31,7 @@ const Navbar = () => {
           <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
             <ul className='list-none flex flex-col justify-end items-center flex-1'>
               {navLinks.map((nav, index) => (
-                <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mb-4'} text-white mr-10`}>
+                <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mb-4' } text-white mr-10 hover:text-hoverColor`}>
                   <a href={`#${nav.id}`}>
                     {nav.title}
                   </a>
@@ -35,7 +40,7 @@ const Navbar = () => {
             </ul>
           </div>
       </div>
-    </nav>
+    </motion.nav>
   )
 }
 
