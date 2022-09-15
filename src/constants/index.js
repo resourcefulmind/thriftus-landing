@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, users, shield, star } from "../assets";
 
 export const navLinks = [
   {
@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Automate Contribution",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "ThriftUs collects and automatically registers payments made into cooperative account. Contributions are deducted and remittances made without the presence of a third-party middleman.",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "100% Secured",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "We take proactive steps make sure your information and transactions are secure. Easy and complete KYC capture for new and existing members which includes: Gender capture, Phone number, Address, Next of kin, Guarantor, ID card, Member Photograph, etc.",
   },
   {
     id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
+    icon: users,
+    title: "Membership Enrolment",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Add and manage members directly from phone. Create custom groups for you and your friends or join a random group with similar financial goals.",
   },
 ];
 
