@@ -1,5 +1,5 @@
 import airbnb from "./airbnb.png";
-import bill from "./bill.png";
+import bill3 from "./bill3.png";
 import binance from "./binance.png";
 import card from "./card.png";
 import coinbase from "./coinbase.png";
@@ -28,7 +28,7 @@ import thriftusmockup3 from "./thriftusmockup3.png"
 
 export {
   airbnb,
-  bill,
+  bill3,
   binance,
   card,
   coinbase,
