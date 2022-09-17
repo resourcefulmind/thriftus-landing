@@ -1,7 +1,7 @@
 import airbnb from "./airbnb.png";
-import bill3 from "./bill3.png";
+import billpayy from "./billpayy.png";
 import binance from "./binance.png";
-import card from "./card.png";
+import group2 from "./group2.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./logo.svg";
@@ -20,17 +20,17 @@ import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
-import people01 from "./people01.png";
-import people02 from "./people02.png";
-import people03 from "./people03.png";
+import farida from "./farida.png";
+import chibuzor from "./chibuzor.png";
+import oreoluwa from "./oreoluwa.png";
 import thriftuslogo from "./thriftuslogo.svg";
 import thriftusmockup3 from "./thriftusmockup3.png"
 
 export {
   airbnb,
-  bill3,
+  billpayy,
   binance,
-  card,
+  group2,
   coinbase,
   dropbox,
   logo,
@@ -48,9 +48,9 @@ export {
   instagram,
   linkedin,
   twitter,
-  people01,
-  people02,
-  people03, 
+  farida, 
+  chibuzor, 
+  oreoluwa, 
   thriftuslogo, 
   thriftusmockup3, 
   users, 

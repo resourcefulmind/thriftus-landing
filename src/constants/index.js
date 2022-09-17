@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, users, shield, star } from "../assets";
+import { farida, chibuzor, oreoluwa, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, users, shield, star } from "../assets";
 
 export const navLinks = [
   {
@@ -47,26 +47,26 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
+      " Making contributions almost tore our friendship apart because one of us decided not to pay up and started giving excuses. With ThriftUs, I do not have to worry about such again as my contribution is debited straight from my bank account on payday. Thank you ThriftUs.",
+    name: "Oreoluwa N",
+    title: "Content Creator",
+    img: oreoluwa,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
+      "I earn a stable salary but I needed a car and it would have taken me a year to save up and the loan sharks had crazy interest rates. ThriftUs matched me with a group and although I didn't know anyone, I met my target seamlessly, bought my car and completed my contribution. ",
+    name: "Chibuzor O",
+    title: "Software Engineer",
+    img: chibuzor,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
+      "I heard about ThriftUs from my colleagues who were always able to go on nice vacations even as we were in the same wage bracket. With ThriftUs, they were able to plan and visit sweet holiday destinations and complete payments gradually. I've been a believer ever since.",
+    name: "Farida W",
+    title: "Immigrations Officer",
+    img: farida,
   },
 ];
 

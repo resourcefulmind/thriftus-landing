@@ -21,7 +21,7 @@ const Business = () => {
     <section id='features' className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>Create, <br className='sm:block hidden' /> automate and monitor <br className='sm:block hidden' /> your contributions with ease.</h2>
-        <p className={`${styles.paragraph} max-w-[670px] mt-5`}>Complete your KYC verification, Create a new group for you and your buddies to start making daily, weekly or monthly contributions and let us handle the rest. Don't have buddies or want to make a bigger contribution? Our system will match you with other people having the same contribution targets at any time. Our system speeds up the process of requesting, verifying and disbursing contributions. </p>
+        <p className={`${styles.paragraph} max-w-[670px] mt-5`}>Complete your KYC verification, Create a new group for you and your buddies to start making daily, weekly or monthly contributions and let us handle the rest. Our system speeds up the process of requesting, verifying and disbursing contributions. </p>
         <Button styles={`mt-10`} />
       </div>
       <div className={`${layout.sectionImg} flex-col`}>

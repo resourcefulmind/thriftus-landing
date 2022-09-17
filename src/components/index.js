@@ -2,7 +2,7 @@ import Navbar from './Navbar';
 import Billing from './Billing';
 import Business from './Business';
 import Button from './Button'; 
-import CardDeal from './CardDeal';
+import JoinGroups from './JoinGroups';
 import Clients from './Clients';
 import CTA from './CTA';
 import Footer from './Footer';
@@ -15,7 +15,7 @@ export {
     Billing, 
     Business, 
     Button, 
-    CardDeal, 
+    JoinGroups, 
     Clients, 
     CTA, 
     Footer, 

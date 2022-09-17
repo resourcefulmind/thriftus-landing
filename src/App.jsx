@@ -1,5 +1,5 @@
 import React from 'react'
-import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from './components'
+import { Billing, Business, JoinGroups, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from './components'
 
 import styles from './style'
 
@@ -22,7 +22,7 @@ const App = () => (
         <Stats />
         <Business />
         <Billing />
-        <CardDeal />
+        <JoinGroups />
         <Testimonials />
         <Clients />
         <CTA />
