@@ -22,7 +22,8 @@ import thriftusmockup3 from "./thriftusmockup3.png"
 import paystack from './paystack.png';
 import flutterwave from './flutterwave.png';
 import visa from './visa.png';
-import stripe from './stripe.png'
+import stripe from './stripe.png';
+import copyright from './copyright.png';
 
 export {
   billpayy,
@@ -50,4 +51,5 @@ export {
   stripe, 
   flutterwave, 
   visa, 
+  copyright, 
 };
