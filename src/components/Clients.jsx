@@ -1,6 +1,5 @@
 import React from 'react';
 import { clients } from '../constants';
-import { motion } from 'framer-motion';
 import styles from '../style';
 
 const Clients = () => (
