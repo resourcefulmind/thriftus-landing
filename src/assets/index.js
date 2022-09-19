@@ -1,12 +1,6 @@
-import airbnb from "./airbnb.png";
 import billpayy from "./billpayy.png";
-import binance from "./binance.png";
 import group2 from "./group2.png";
-import coinbase from "./coinbase.png";
-import dropbox from "./dropbox.png";
-import logo from "./logo.svg";
 import quotes from "./quotes.svg";
-import robot from "./robot.png";
 import users from "./users.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -25,17 +19,15 @@ import chibuzor from "./chibuzor.png";
 import oreoluwa from "./oreoluwa.png";
 import thriftuslogo from "./thriftuslogo.svg";
 import thriftusmockup3 from "./thriftusmockup3.png"
+import paystack from './paystack.png';
+import flutterwave from './flutterwave.png';
+import visa from './visa.png';
+import stripe from './stripe.png'
 
 export {
-  airbnb,
   billpayy,
-  binance,
   group2,
-  coinbase,
-  dropbox,
-  logo,
   quotes,
-  robot,
   shield,
   star,
   menu,
@@ -54,4 +46,8 @@ export {
   thriftuslogo, 
   thriftusmockup3, 
   users, 
+  paystack, 
+  stripe, 
+  flutterwave, 
+  visa, 
 };

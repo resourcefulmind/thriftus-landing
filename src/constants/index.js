@@ -1,4 +1,4 @@
-import { farida, chibuzor, oreoluwa, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, users, shield, star } from "../assets";
+import { farida, chibuzor, oreoluwa, facebook, instagram, linkedin, twitter, paystack, stripe, visa, flutterwave, users, shield, star } from "../assets";
 
 export const navLinks = [
   {
@@ -180,18 +180,18 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
-    logo: airbnb,
+    logo: paystack,
   },
   {
     id: "client-2",
-    logo: binance,
+    logo: stripe,
   },
   {
     id: "client-3",
-    logo: coinbase,
+    logo: flutterwave,
   },
   {
     id: "client-4",
-    logo: dropbox,
+    logo: visa,
   },
 ];
