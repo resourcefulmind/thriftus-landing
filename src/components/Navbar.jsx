@@ -8,10 +8,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <motion.nav
-      initial={{ y: -150 }}
-      animate={{ y: -10 }} 
-      transition={{ delay: 0.2, type: 'spring', stiffness: 120 }} 
+    <nav 
       className='w-full flex py-6 justify-between items-center navbar'>
       <img src={thriftuslogo} alt='thriftus' className='w-[140px] h-[64px]'/>
 
@@ -40,7 +37,7 @@ const Navbar = () => {
             </ul>
           </div>
       </div>
-    </motion.nav>
+    </nav>
   )
 }
 
