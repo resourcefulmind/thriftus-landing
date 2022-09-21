@@ -9,7 +9,7 @@ It includes a Home, Features, Product and Clients section.
 
 Here are links to the landing page demo.
 
-Hosted on Vercel: https://thriftus-landing.vercel.app
+Hosted on Vercel: https://thriftuslanding.vercel.app
 
 Hosted on Netlify: https://thriftus.netlify.app
 
