@@ -1,7 +1,7 @@
 import React from 'react'
 
 import styles from '../style';
-import { discount, thriftusmockup3 } from '../assets';
+import { discount, thriftusmockup31 } from '../assets';
 import { motion } from 'framer-motion';
 import GetStarted from './GetStarted'
 
@@ -49,7 +49,7 @@ const Hero = () => (
       animate={{ opacity: 1 }} 
       transition={{ delay: 0.1, duration: 1.5 }}
       className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative xss:px-4 ss:px-6 sm:px-16 pr-12`}>
-      <img src={thriftusmockup3} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+      <img src={thriftusmockup31} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
 
       {/* gradient start */}
       <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />

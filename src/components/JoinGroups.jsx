@@ -1,5 +1,5 @@
 import React from 'react';
-import { group2 } from '../assets';
+import { group21 } from '../assets';
 import styles, { layout } from '../style';
 import Button from './Button';
 
@@ -11,7 +11,7 @@ const JoinGroups = () => (
         <Button styles='mt-10' />
       </div>
       <div className={layout.sectionImg}>
-        <img src={group2} alt="Scan and find groups" className='w-[100%] h-[100%]' />
+        <img src={group21} alt="Scan and find groups" className='w-[100%] h-[100%]' />
       </div>
     </section>
 )

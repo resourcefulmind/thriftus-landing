@@ -1,4 +1,4 @@
-import { farida, chibuzor, oreoluwa, facebook, instagram, linkedin, twitter, paystack, stripe, visa, flutterwave, users, shield, star } from "../assets";
+import { oreoluwa1, facebook, instagram, linkedin, twitter, users, shield, star, chibuzor1, farida1, flutterwave1, paystack1, stripe1, visa1 } from "../assets";
 
 export const navLinks = [
   {
@@ -50,7 +50,7 @@ export const feedback = [
       " Making contributions almost tore our friendship apart because one of us decided not to pay up and started giving excuses. With ThriftUs, I do not have to worry about such again as my contribution is debited straight from my bank account on payday. Thank you ThriftUs.",
     name: "Oreoluwa N",
     title: "Content Creator",
-    img: oreoluwa,
+    img: oreoluwa1,
   },
   {
     id: "feedback-2",
@@ -58,7 +58,7 @@ export const feedback = [
       "I earn a stable salary but I needed a car and it would have taken me a year to save up and the loan sharks had crazy interest rates. ThriftUs matched me with a group and although I didn't know anyone, I met my target seamlessly, bought my car and completed my contribution. ",
     name: "Chibuzor O",
     title: "Software Engineer",
-    img: chibuzor,
+    img: chibuzor1,
   },
   {
     id: "feedback-3",
@@ -66,7 +66,7 @@ export const feedback = [
       "I heard about ThriftUs from my colleagues who were always able to go on nice vacations even as we were in the same wage bracket. With ThriftUs, they were able to plan and visit sweet holiday destinations and complete payments gradually. I've been a believer ever since.",
     name: "Farida W",
     title: "Immigrations Officer",
-    img: farida,
+    img: farida1,
   },
 ];
 
@@ -180,18 +180,18 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
-    logo: paystack,
+    logo: paystack1,
   },
   {
     id: "client-2",
-    logo: stripe,
+    logo: stripe1,
   },
   {
     id: "client-3",
-    logo: flutterwave,
+    logo: flutterwave1,
   },
   {
     id: "client-4",
-    logo: visa,
+    logo: visa1,
   },
 ];
